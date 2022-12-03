@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-southeast-1",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "ServerlessDotnetAngularKinesis",
+    "environment"    : "ServerlessDotnetAngularKinesis-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0fa966497a49d1c64\";\"aws:ec2:vpc,Subnets\"=\"subnet-0589080f93e53eb96\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.4.1 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "ServerlessDotnetAngularKinesis-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ServerlessDotnetAngularKinesis-dev",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
